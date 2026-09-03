@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "author": "一笑而过",
+  "github_owner": "Quentin-AGI",
+  "default_visibility": "private",
+  "categories": {
+    "reading": "阅读 / Reading",
+    "writing": "写作 / Writing",
+    "finance": "金融 / Finance",
+    "sales": "销售 / Sales"
+  },
+  "skills": {}
+}
