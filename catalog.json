@@ -9,5 +9,20 @@
     "finance": "金融 / Finance",
     "sales": "销售 / Sales"
   },
-  "skills": {}
+  "skills": {
+    "buffett-investment-system": {
+      "display_name": "巴菲特投资认知系统",
+      "description": "以原书和严格一手证据为基准的可审计巴菲特式投资分析系统，不冒充本人。",
+      "category": "finance",
+      "path": "skills/buffett-investment-system",
+      "version": "0.1.0",
+      "languages": ["zh-CN", "en"],
+      "platforms": ["codex", "claude-code"],
+      "visibility": "public",
+      "license": {
+        "code": "Apache-2.0",
+        "content": "CC-BY-4.0"
+      }
+    }
+  }
 }

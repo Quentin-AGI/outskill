@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "approved_at": "2026-09-06T14:22:45+00:00",
+  "approval_note": "Initial or human-reviewed official-source baseline.",
+  "sources": [
+    {
+      "id": "BRK-LETTERS",
+      "kind": "shareholder-letters",
+      "required": true,
+      "url": "https://www.berkshirehathaway.com/letters/letters.html",
+      "final_url": "https://www.berkshirehathaway.com/letters/letters.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": null,
+      "last_modified": "Tue, 02 Dec 2025 11:51:41 GMT",
+      "bytes": 5730,
+      "sha256": "94d1e1cd908f0615938addc0f0a0dc05e24249dfe5aaa17e04f51251b620fcf6",
+      "attribution_rule": "Record author, fiscal year and publication date separately. A Greg Abel letter is not a Buffett statement."
+    },
+    {
+      "id": "BRK-REPORTS",
+      "kind": "annual-and-interim-reports",
+      "required": true,
+      "url": "https://www.berkshirehathaway.com/reports.html",
+      "final_url": "https://www.berkshirehathaway.com/reports.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": null,
+      "last_modified": "Sat, 08 Aug 2026 12:00:02 GMT",
+      "bytes": 5991,
+      "sha256": "f6c3df3b978fbe4516923e2e582f0152e035aa76c994d56df5fb4a154441a29d",
+      "attribution_rule": "Use reports for company facts; do not attribute all report text or company action to Buffett."
+    },
+    {
+      "id": "BRK-NEWS-2026",
+      "kind": "official-news-and-signed-statements",
+      "required": true,
+      "url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "final_url": "https://www.berkshirehathaway.com/news/2026news.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": null,
+      "last_modified": "Sat, 08 Aug 2026 11:59:46 GMT",
+      "bytes": 956,
+      "sha256": "7e5a29797201bc47c92c7c8c996737ee44a68ef3166eac66f06345a2127325db",
+      "attribution_rule": "Separate Buffett-signed statements from Berkshire corporate announcements and Abel-era actions. A missing current-year page is a visible degraded check, never proof that no new material exists."
+    },
+    {
+      "id": "BRK-NEWS-2025",
+      "kind": "official-news-and-signed-statements",
+      "required": true,
+      "url": "https://www.berkshirehathaway.com/news/2025news.html",
+      "final_url": "https://www.berkshirehathaway.com/news/2025news.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "etag": null,
+      "last_modified": "Fri, 02 Jan 2026 14:58:37 GMT",
+      "bytes": 1076,
+      "sha256": "e4323722b07dc1bab275a4f5c28668f17dc1019bc74812004113ed57a5ea998c",
+      "attribution_rule": "Separate Buffett-signed statements from Berkshire corporate announcements and Abel-era actions. A missing current-year page is a visible degraded check, never proof that no new material exists."
+    },
+    {
+      "id": "CNBC-BRK-MEETINGS",
+      "kind": "authorized-complete-meeting-archive",
+      "required": true,
+      "url": "https://buffett.cnbc.com/annual-meetings/",
+      "final_url": "https://buffett.cnbc.com/annual-meetings/",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "etag": "W/\"23d44-8ZwIJ/W/rdJB1oSzT4ITEpmmCV4\"",
+      "last_modified": null,
+      "bytes": 146756,
+      "sha256": "ea9d34a043b065c4b65b4ae4632bf5b62aead95b5064c066fa99ea79872937ec",
+      "attribution_rule": "Use complete meetings and identify each speaker; clips are locators, not independent evidence."
+    }
+  ]
+}

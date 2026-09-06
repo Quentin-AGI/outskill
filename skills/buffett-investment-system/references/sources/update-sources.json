@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-06",
+  "sources": [
+    {
+      "id": "BRK-LETTERS",
+      "kind": "shareholder-letters",
+      "url": "https://www.berkshirehathaway.com/letters/letters.html",
+      "attribution_rule": "Record author, fiscal year and publication date separately. A Greg Abel letter is not a Buffett statement."
+    },
+    {
+      "id": "BRK-REPORTS",
+      "kind": "annual-and-interim-reports",
+      "url": "https://www.berkshirehathaway.com/reports.html",
+      "attribution_rule": "Use reports for company facts; do not attribute all report text or company action to Buffett."
+    },
+    {
+      "id_pattern": "BRK-NEWS-{year}",
+      "kind": "official-news-and-signed-statements",
+      "url_pattern": "https://www.berkshirehathaway.com/news/{year}news.html",
+      "year_offsets": [0, -1],
+      "attribution_rule": "Separate Buffett-signed statements from Berkshire corporate announcements and Abel-era actions. A missing current-year page is a visible degraded check, never proof that no new material exists."
+    },
+    {
+      "id": "SEC-BRK-SUBMISSIONS",
+      "kind": "regulatory-filings",
+      "url": "https://data.sec.gov/submissions/CIK0001067983.json",
+      "required": false,
+      "attribution_rule": "Use for filing, date, governance and transaction facts; a filing does not itself prove Buffett's view."
+    },
+    {
+      "id": "CNBC-BRK-MEETINGS",
+      "kind": "authorized-complete-meeting-archive",
+      "url": "https://buffett.cnbc.com/annual-meetings/",
+      "attribution_rule": "Use complete meetings and identify each speaker; clips are locators, not independent evidence."
+    }
+  ]
+}

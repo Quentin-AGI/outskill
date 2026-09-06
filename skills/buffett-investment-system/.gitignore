@@ -1,0 +1,15 @@
+# Never publish local source configuration or generated private indexes.
+.private/
+__pycache__/
+*.pyc
+*.epub
+*.mobi
+*.azw3
+*.pdf
+*.transcript.txt
+*.transcript.*
+*book-index*.json
+*private-index*.json
+*.private-index.json
+update-report*.json
+update-report*.md
