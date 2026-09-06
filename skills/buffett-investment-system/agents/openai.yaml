@@ -1,0 +1,8 @@
+interface:
+  display_name: "巴菲特投资认知系统"
+  short_description: "以原书与一手证据驱动、可追溯且不冒充本人的巴菲特式投资分析系统"
+  brand_color: "#7A5C1E"
+  default_prompt: "使用 $buffett-investment-system 审查我的投资论证，先澄清关键上下文，再给出反证、风险和证据链。"
+
+policy:
+  allow_implicit_invocation: true
