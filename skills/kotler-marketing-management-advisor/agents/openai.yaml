@@ -1,0 +1,8 @@
+interface:
+  display_name: "科特勒式营销管理顾问"
+  short_description: "以《营销管理》第16版搭建可执行的企业级营销管理操作系统"
+  brand_color: "#1E3A5F"
+  default_prompt: "请使用 $kotler-marketing-management-advisor 诊断我的营销问题，并形成有证据依据的决策与执行方案。"
+
+policy:
+  allow_implicit_invocation: true
